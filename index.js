@@ -1,3 +1,4 @@
+
 /*
     Create 3 global variables, isRunning, timer and timerTime.
     Initialize them to false, null and 0 respectively.
@@ -67,11 +68,12 @@ function stopTimer() {
 
 function resetTimer() {
     // stop the timer
-    
+    stopTimer();
     // set the timerTime back to 0
-    
+    timerTime = 0;
     // write 00 to the elements on the page for minutes and seconds
-
+    document.getElementById("minutes").innerHTML = "00";
+    document.getElementById("seconds").innerHTML = "00";
 }
 
 // When the page has finished loading, call the function init

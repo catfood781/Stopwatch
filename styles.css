@@ -1,0 +1,45 @@
+.container
+{
+    /*code for the image back ground*/
+    border: 10px solid #000;
+    background-image: url('timepiece.jpg');
+    background-repeat: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    
+}
+
+.timer
+{
+/*code for the timer*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 100px;
+    color:#ccc;
+}
+
+.btn
+{
+    border: 5px solid #A9A9A9;
+    background-color: #ccc;
+    text-transform: uppercase;
+    line-height: 50px;
+    border-radius: 50%;
+    
+}
+
+.timer-buttons
+{
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.btn:hover
+{
+    text-shadow: 0 0 5px #000;
+}

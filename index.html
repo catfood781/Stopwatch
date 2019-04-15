@@ -3,28 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <title>My Stop Watch in JavaScript</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div>
+    
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="container">
     <!-- timer -->
-    <div class="timer">
-      <span id="minutes">00</span> : <span id="seconds">00</span>
-    </div>
-    <!-- timer buttons -->
-    <div class="timer-buttons">
-      <button id="start">
-        Start
-      </button>
-      <button id="stop">
-        Stop
-      </button>
-      <button id="reset">
-        Reset
-      </button>
-    </div>
+      <div class="timer">
+      <br />
+      <span id="minutes">00</span> : <span id="seconds">00</span> 
+      </div>
+      <!-- timer buttons -->
+      <div class="timer-buttons">
+          <button type="button" class="btn" id="start">
+          Start
+        </button>
+        <button type="button" class="btn" id="stop">
+          Stop
+        </button>
+        <button type="button" class="btn" id="reset">
+          Reset
+        </button>
+        
+      </div>
   </div>
-  
-  <script src="index.js"></script>
-</body>
+  </div>
+  <script src="indexStart.js"></script>
+ </body>
 </html>
